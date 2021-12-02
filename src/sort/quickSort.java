@@ -32,9 +32,9 @@ public class quickSort {
 
 	}
 
-	private void swap(int[] nums, int lower_idx, int loop_idx) {
-		int record = nums[lower_idx];
-		nums[lower_idx] = nums[loop_idx];
-		nums[loop_idx] = record;
+	private void swap(int[] nums, int a, int b) {
+		int record = nums[a];
+		nums[a] = nums[b];
+		nums[b] = record;
 	}
 }
