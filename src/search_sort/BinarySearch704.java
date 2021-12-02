@@ -2,41 +2,31 @@ package search_sort;
 
 public class BinarySearch704 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 	public int search(int[] nums, int target) {
-		// binary search, select right or left part
+		
+		int len = nums.length;
 
-		int start_idx = 0;
-		int end_idx = nums.length - 1;
-		int test_idx = end_idx;
+		int start = 0;
+		int end = len - 1;
 
-		while (start_idx < end_idx && end_idx - start_idx > 1) {
+		while (start <= end) {
+			int med = start + (end - start) / 2;
 
-			test_idx = (end_idx + start_idx) / 2;
+			if (start == end && nums[med] != target) {
+				break;
+			}
 
-			if (nums[test_idx] > target) {
-				// watch fore part
-				end_idx = test_idx;
-			} else if (nums[test_idx] < target) {
-				// watch post part
-				start_idx = test_idx;
+			if (nums[med] > target) {
+				end = med;
+			} else if (nums[med] < target) {
+				start = med + 1;
 			} else {
-				return test_idx;
+				return med;
 			}
 		}
 
-		// 檢測 nums.length==1 與 夾擠到剩頭尾兩數時
-		if (nums[start_idx] == target) {
-			return start_idx;
-		} else if (nums[end_idx] == target) {
-			return end_idx;
-		}
-
 		return -1;
+
 	}
 
 }
