@@ -37,7 +37,7 @@ public class merge_sort_list {
 		middle.next = null;
 
 		ListNode left = mergesort(m);
-		ListNode right = mergesort(m);
+		ListNode right = mergesort(start2);
 
 		return merge(left, right);
 
@@ -46,9 +46,23 @@ public class merge_sort_list {
 	public ListNode merge(ListNode left, ListNode right) {
 
 		ListNode head = new ListNode();
+		ListNode cur = head;
 
 		while (left != null && right != null) {
+			if (left.val <= right.val) {
+				cur.next = left;
+				left = left.next;
+			} else {
+				cur.next = right;
+				right = right.next;
+			}
+			cur = cur.next;
+		}
 
+		if (left == null) {
+			cur.next = right;
+		} else {
+			cur.next = left;
 		}
 
 		return head.next;
