@@ -32,10 +32,12 @@ public class merge_sort_list {
 
 	public ListNode mergesort(ListNode m) {
 
+		// separate the list
 		ListNode middle = findMiddle(m);
 		ListNode start2 = middle.next;
 		middle.next = null;
 
+		
 		ListNode left = mergesort(m);
 		ListNode right = mergesort(start2);
 
@@ -48,6 +50,7 @@ public class merge_sort_list {
 		ListNode head = new ListNode();
 		ListNode cur = head;
 
+		// remodel the node
 		while (left != null && right != null) {
 			if (left.val <= right.val) {
 				cur.next = left;
@@ -59,6 +62,7 @@ public class merge_sort_list {
 			cur = cur.next;
 		}
 
+		// concatenate the remaining list
 		if (left == null) {
 			cur.next = right;
 		} else {
