@@ -8,8 +8,7 @@ public class merge_sort_Arr_inplace {
 	}
 
 	public int[] mergesort(int[] arr) {
-
-		// split
+		// split helper
 		split(arr, 0, arr.length - 1);
 
 		return arr;
@@ -27,7 +26,7 @@ public class merge_sort_Arr_inplace {
 		split(arr, s, middle);
 		split(arr, middle + 1, e);
 
-		// merge
+		// conquer
 		merge(arr, s, middle, e);
 
 	}
@@ -39,8 +38,7 @@ public class merge_sort_Arr_inplace {
 			return;
 		}
 
-
-		while (s <= middle && st2 <= e) {  //»İequal to compare the last one
+		while (s <= middle && st2 <= e) {  //equal condition to compare the last one
 
 			if (arr[s] > arr[st2]) {
 				int val = arr[st2];
