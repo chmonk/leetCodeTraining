@@ -48,7 +48,7 @@ public class ImplementStackusingQueues_225 {
 		}
 	}
 
-	static public void main(String[] args) {
+	static public void main(String... args) {
 		MyStack test = new MyStack();
 
 		test.push(1);
