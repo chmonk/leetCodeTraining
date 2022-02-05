@@ -1,0 +1,128 @@
+模擬面試 - LeetCode題庫
+此題庫提供給所有報名參加模擬面試的選手使用。
+除 AC 提供的題目之外，選手也可以自行新增題目，供大家討論、切磋。
+
+新手組 需熟練的主題：Array, Sorting, String…等基本觀念
+資深組 需熟練的主題：Backtracking, Tree, Dynamic Programming
+
+模擬面試 - LeetCode題庫
+新手組
+AC 提供
+選手推薦
+資深組
+AC 提供
+選手推薦
+
+新手組
+AC 提供
+點選顯示題目列表
+選手推薦
+直接在底下新增即可↓
+
+142 Linked List Cycle II Medium
+83 Remove Duplicates from Sorted List Easy
+125 Valid Palindrome Easy
+347 Top K Frequent Elements Medium
+18 4Sum Medium
+24 Swap Nodes in Pairs Medium
+3 Longest Substring Without Repeating Characters Medium
+257 Binary Tree Paths Easy
+232 Implement Queue using Stacks Easy
+15 3Sum Medium
+925 Long Pressed Name Easy
+1091 Shortest Path in Binary Matrix Medium
+50 Pow(x, n) Medium
+14 Longest Common Prefix Easy
+229 Majority Element II Medium
+172 Factorial Trailing Zeroes Easy
+234 Palindrome Linked List Easy
+349 Intersection of Two Arrays Easy
+917 Reverse Only Letters Easy
+160 Intersection of Two Linked Lists Easy
+167 Two Sum II - Input array is sorted Easy
+167 Two Sum II - Input array is sorted Easy
+844 Backspace String Compare Easy
+942 DI String Match Easy
+28 Implement strStr() Easy
+137 Single Number II Medium
+345 Reverse Vowels of a String Easy
+394 Decode String Medium
+680 Valid Palindrome II Easy
+696 Count Binary Substrings Easy
+961 N-Repeated Element in Size 2N Array Easy
+1002 Find Common Characters Easy
+1546 Maximum Number of Non-Overlapping Subarrays With Sum Equals Target Medium
+1768 Merge Strings Alternately Easy
+21 Merge Two Sorted Lists Easy
+27 Remove Element Easy
+141 Linked List Cycle Easy
+151 Reverse Words in a String Medium
+350 Intersection of Two Arrays II Easy
+541 Reverse String II Easy
+557 Reverse Words in a String III Easy
+821 Shortest Distance to a Character Easy
+832 Flipping an Image Easy
+905 Sort Array By Parity Easy
+1089 Duplicate Zeros Easy
+1346 Check If N and Its Double Exist Easy
+1385 Find the Distance Value Between Two Arrays Easy
+1646 Get Maximum in Generated Array Easy
+資深組
+AC 提供
+點選顯示題目列表
+0075 Sort Colors：Question｜AC’s Solution ★★★★
+0852 Peak Index in a Mountain Array：Question｜AC’s Solution ★★
+0033 Search in Rotated Sorted Array：Question｜AC’s Solution ★★★
+0078 Subsets：Question｜AC’s Solution ★★★★
+0779 K-th Symbol in Grammar：Question｜AC’s Solution ★★★★
+0070 Climbing Stairs：Question｜AC’s Solution ★★
+0062 Unique Paths：Question｜AC’s Solution ★★★
+0063 Unique Paths II：Question｜AC’s Solution ★★★
+0746 Min Cost Climbing Stairs：Question｜AC’s Solution ★★
+0198 House Robber：Question｜AC’s Solution ★★
+1143 Longest Common Subsequence：Question｜AC’s Solution ★★★★
+0053 Maximum Subarray：Question｜AC’s Solution ★★
+0152 Maximum Product Subarray：Question｜AC’s Solution ★★★
+0700 Search in a Binary Search Tree：Question｜AC’s Solution ★★
+0100 Same Tree：Question｜AC’s Solution ★★
+0107 Binary Tree Level Order Traversal II：Question｜AC’s Solution ★★★★
+0208 Implement Trie (Prefix Tree)：Question｜AC’s Solution ★★★★
+0108 Convert Sorted Array to Binary Search Tree：Question｜AC’s Solution ★★
+0538 Convert BST to Greater Tree：Question｜AC’s Solution ★★★
+0155 Min Stack：Question｜AC’s Solution ★★★
+0082 Remove Duplicates from Sorted List II：Question｜AC’s Solution ★★★
+1290 Convert Binary Number in a Linked List to Integer：Question｜AC’s Solution ★★
+0098 Validate Binary Search Tree：Question｜AC’s Solution ★★★
+0207 Course Schedule：Question｜AC’s Solution ★★★
+0011 Container with Most Water：Question｜AC’s Solution ★★★
+0133 Clone Graph：Question｜AC’s Solution ★★★
+0200 Number of Islands：Question｜AC’s Solution ★★★
+0637 Average of Levels in Binary Tree：Question｜AC’s Solution ★★
+0529 Minesweeper：Question｜AC’s Solution ★★★
+0113 Path Sum II：Question｜AC’s Solution ★★★★
+0765 Couples Holding Hands：Question｜AC’s Solution ★★★★
+0860 Lemonade Change：Question｜AC’s Solution ★★
+0881 Boats to Save People：Question｜AC’s Solution ★★★
+0017 Letter Combinations of a Phone Number：Question｜AC’s Solution ★★★★
+0841 Keys and Rooms：Question｜AC’s Solution ★★★
+0547 Friend Circles：Question｜AC’s Solution ★★★
+0725 Split Linked List in Parts ：Question｜AC’s Solution ★★★
+★ 數量表示問題難易度，★ 為 Very easy，★★★★ 為 Hard
+
+選手推薦
+直接在底下新增即可↓
+
+94 Binary Tree Inorder Traversal Easy
+124 Binary Tree Maximum Path Sum Hard
+144 Binary Tree Preorder Traversal Easy
+518 Coin Change 2 Medium
+1395 Count Number of Teams Medium
+22 Generate Parentheses Medium
+392 Is Subsequence Easy
+5 Longest Palindromic Substring Medium
+236 Lowest Common Ancestor of a Binary Tree Medium
+236 Lowest Common Ancestor of a Binary Tree Medium
+1553 Minimum Number of Days to Eat N Oranges Hard
+發表於  HackMD
+ 290
+讚賞2 收藏 訂閱
